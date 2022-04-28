@@ -1,0 +1,51 @@
+{
+  "name": "latteandfront-react-authentication-v6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.17.*",
+    "@babel/eslint-parser": "7.17.*",
+    "@babel/preset-react": "7.16.*",
+    "eslint": "8.13.*",
+    "eslint-config-prettier": "8.5.*",
+    "eslint-config-react-app": "7.0.*",
+    "eslint-plugin-import": "2.26.*",
+    "eslint-plugin-prettier": "4.0.*",
+    "eslint-plugin-react": "7.29.*",
+    "eslint-plugin-react-hooks": "4.4.*",
+    "husky": "7.0.*",
+    "lint-staged": "12.4.*",
+    "prettier": "2.6.*",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router": "6.3.*",
+    "react-router-dom": "6.3.*",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "husky install"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "src/*.{js}": "eslint",
+    "src/**/*.{js,jsx,json,css,scss,md}": "prettier -w -u"
+  }
+}

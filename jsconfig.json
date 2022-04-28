@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "lib": ["es2020"]
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
