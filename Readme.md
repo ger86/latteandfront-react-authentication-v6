@@ -1,6 +1,8 @@
 # Sistema de autenticación con React Router v6
 
-En este repositorio encontrarás una aplicación que muestra cómo implementar un flujo de autenticación con **React Router v6**.
+En este repositorio encontrarás una aplicación que muestra cómo implementar un flujo de autenticación con **React Router v6**. Puedes encontrar la explicación paso a paso en el siguiente vídeo:
+
+[Sistema de autenticación con React Router V6](https://www.youtube.com/watch?v=ZXiJdEWVcqY)
 
 Definiremos varias rutas públicas y otras tantas privadas. Estas últimas sólo serán accesibles para usuarios que hayan iniciado sesión.
 
